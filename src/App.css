@@ -1,0 +1,84 @@
+/* Set background image */
+body {
+  background: url('https://uhdwallpapers.org/uploads/converted/22/02/14/view-from-a-drone-above-the-ocean-shore-3840x2160_574865-mm-90.webp') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* Style the input fields */
+/* Fonts */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.Form {
+  width: 400px; 
+  margin: 0 auto;
+  border: 1px solid #6c827e;
+  padding: 20px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin-bottom: 30px;  
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; 
+  color: white;
+}
+th{
+  color: black;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #9cc0e8;
+}
+
+th {
+  background: #aee8bb;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #131413;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #e6e7e6;
+  color: #1fb3ee;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0062cc;
+}
+
+.result {
+  margin-top: 30px;  
+}
+
+.result table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.result th,
+.result td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.result th {
+  background: #f2f2f2;
+}
